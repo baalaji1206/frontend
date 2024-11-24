@@ -1,0 +1,254 @@
+
+.containers {
+    background-color: #f9f9f92d; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw; 
+    height: 100vh; 
+}
+
+.welcome p{
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    margin-top: 300px;
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: #091154; 
+    padding: 10px 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    height: 15%;
+    position: relative;
+}
+
+.head{
+    align-self: flex-start;
+}
+
+.head h1 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+
+.optionnav {
+    list-style: none;
+    display: flex; 
+    flex-direction: row;
+    gap: 50px; 
+    margin: 0; 
+    padding: 0; 
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.optionnav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.optionnav li a:hover {
+    text-decoration: underline; 
+}
+
+
+.log {
+    background: rgb(220, 63, 63); 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    padding: 5px 15px; 
+}
+
+.search-create input{
+    width: 50%;
+    padding: 13px;
+    background: rgb(220, 215, 215);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+
+    margin: 30px;
+    margin-left: 400px;
+    justify-items: center;
+}
+
+.search-create box-icon{
+    position: absolute;
+    right: 375px;
+    bottom: 75%;
+    color: rgb(142, 139, 139);
+    transform: translateY(-50%);
+    font-size: 20px;
+    
+}
+
+.addemp{
+    padding: 10px;
+    height: 45px;
+    background-color: green;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.tableheading {
+    
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tableheading th {
+    padding: 12px 15px;
+    text-align: left; 
+}
+
+.tableheading  {
+    border-bottom: 1px solid #0c0b0b; 
+    background-color: #191668; 
+
+}
+
+.table td, .table th {
+    padding: 10px 15px; 
+}
+
+.details {
+    background-color: #a79b9b;
+    border-style: double ;
+    border-color: #0c0b0b;
+}
+
+.col {
+    text-align: left;
+    vertical-align: middle; 
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+body{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.createcontainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 580px;
+    background: rgb(249, 245, 245);
+    /* background: #13139138; */
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.createcontainer h1{
+     margin: 30px;
+}
+
+.textbox, .desig{
+    position: relative;
+    margin: 5px;
+    gap: 15px;
+}
+
+.textbox input, .desig select{
+    width: 35%;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    outline: none;
+    font-weight: 500;
+    padding: 6px;
+    font-size: 16px;
+    flex: 1;
+}
+
+.radio, .check{
+    margin: 5px;
+}
+
+.radio input, .check input{
+    outline: none;
+    border: none;
+    margin: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.profile{
+    margin: 5px;
+}
+
+.profile input{
+    width: 35%;
+    height: 35px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 4px;
+    margin: 10px;
+}
+
+.la{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+ .sub{
+    background-color: rgb(52, 181, 52);
+    padding: 10px 15px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.3);
+    cursor: pointer;
+} 
+
+.username{
+    color: white;
+    margin-left: 1150px;
+}
+
